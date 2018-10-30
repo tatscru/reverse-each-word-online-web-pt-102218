@@ -5,13 +5,10 @@ def reverse_each_word(array)
   return reversed_array.join(" ")
 end
 
-# def reverse_each_word(array)
-#   array = array.split(" ")
-#   new_array = []
-#   array.each {|array| new_array.reverse!}
-#   end 
-#   return new_array.join(" ")
-# end 
+def reverse_each_word(array)
+  array.split(" ").collect {|array| array.reverse!}.join(" ")
+end
+
 
 #   original_array = string.split(" ")
 #   return_array = []
@@ -29,6 +26,3 @@ end
 # end
 
 
-# def reverse_each_word(array)
-#   array.split(" ").collect {|array| array.reverse!}.join(" ")
-# end

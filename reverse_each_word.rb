@@ -9,7 +9,7 @@ def reverse_each_word(array)
   array = array.split(" ")
   new_array = []
   array.each {|array| new_array.reverse!}
-end 
+  end 
   return new_array.join(" ")
 end 
 

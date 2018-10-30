@@ -1,7 +1,6 @@
 def reverse_each_word(array)
   reversed_array = array.split(" ").reverse.join("")
   reversed_array.join(" ")
-  end 
 end   
 
 # def reverse_each_word(array)

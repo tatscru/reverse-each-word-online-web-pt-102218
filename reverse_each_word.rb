@@ -1,17 +1,17 @@
  
-# def reverse_each_word(sentence)
-#   new_array = array.split(" ")
-#   reversed_array = new_array.each {|x| x.reverse!}
-#   return reversed_array.join(" ")
-# end
+def reverse_each_word(sentence)
+  new_array = array.split(" ")
+  reversed_array = new_array.each {|x| x.reverse!}
+  return reversed_array.join(" ")
+end
 
-def reverse_each_word(array)
-  array = array.split(" ")
-  new_array = []
-  array.each {|array| new_array.reverse!}
-  end 
-  return new_array.join(" ")
-end 
+# def reverse_each_word(array)
+#   array = array.split(" ")
+#   new_array = []
+#   array.each {|array| new_array.reverse!}
+#   end 
+#   return new_array.join(" ")
+# end 
 
 #   original_array = string.split(" ")
 #   return_array = []
